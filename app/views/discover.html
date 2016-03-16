@@ -1,0 +1,13 @@
+<div ng-init="number = 1">
+  <p>control number: {{number}}</p>
+  <div ng-click="number = number * -1">
+    Discover
+    <span ng-if="number === 1">more</span>
+    <span ng-if="number !== 1">less</span>
+    <p ng-show="number!== 1">
+      ------------------<br>
+      Detail description<br>
+      ------------------
+    </p>
+  </div>
+</div>
